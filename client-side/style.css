@@ -399,9 +399,10 @@ ul.grid-users {
     display: block;
 }
 .grid-users .user-list {
-    background: #f3f3f3;
+    background: #ffffff;
     margin-bottom: 10px;
     padding: 0 10px 0 0px;
+    box-shadow: 0 0 5px 0 #c7f7fa;
 }
 .grid-users .user-list .inner-list .btn-cta {
     position: absolute;
@@ -463,4 +464,15 @@ ul.grid-users {
 .icons-container {
     display: flex;
     align-items: center;
+}
+.section.user-section {
+    background: #e8f6f4;
+}
+.user-section .inner-section {
+    min-height: 70vh;
+    background-position: bottom center !important;
+    background-size: cover !important;
+}
+.dashbord-top {
+    background: #e8f6f4;
 }

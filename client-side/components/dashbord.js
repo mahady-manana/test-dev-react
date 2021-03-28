@@ -16,7 +16,7 @@ const [error, setError] = useState({
 const {hasLogger} = useContext(AppContext)
 const [searchWords, setSearchWords] = useState('')
 const [hasChange, setHasChange] = useState(false)
-const [byGrid, setToGrid] = useState(true);
+const [byGrid, setToGrid] = useState(false);
 
 useEffect(() => {
     const abortController = new AbortController()
@@ -74,7 +74,7 @@ const renderBy = () => {
 return (
 <>
 <section className='section'>
-    <div className='inner-section dashbord-top'>
+    <div className='dashbord-top'>
         <div className='app-container'>
             <div className='top-utils'>
                 <div className='icons-container'>
@@ -102,8 +102,8 @@ return (
         </div>
     </div>
 </section>
-<section className='section'>
-    <div className='inner-section'>
+<section className='section user-section'>
+    <div className='inner-section' style={{background : 'url(/bg-home.png)'}}>
         <div className='app-container'>
             {
                 renderBy()
