@@ -1,7 +1,7 @@
 {
-  "name": "sharing-app",
+  "name": "test-dev",
   "version": "1.0.0",
-  "description": "Sharing platform application - Open source fullstack project.",
+  "description": "test-dev.",
   "main": "./build/index.js",
   "scripts": {
     "start": "node ./build/build.index.js",

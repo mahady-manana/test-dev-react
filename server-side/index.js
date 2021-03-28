@@ -60,7 +60,7 @@ app.get("*", (req, res) => {
         <base href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TEST APPLICATION</title>
-        <meta name="description" content="Sharing platform for everyone.">
+        <meta name="description" content="Test dev15 - Randriamahady Manana">
         <meta name="keywords" content="Reactjs, Nodejs, Jsx, Express, JavaScript">
         <meta name="author" content="Mahady Manana">
         <base href="/">
