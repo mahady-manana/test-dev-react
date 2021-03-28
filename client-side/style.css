@@ -1,0 +1,466 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a, * {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.app-container {
+    max-width: 1170px;
+    margin: auto;
+}
+@media screen and (max-width : 1170px) {
+    .app-container {
+        width: 80%;
+    }
+}
+@media screen and (max-width : 767px) {
+    .app-container {
+        width: 100% !important;
+        padding: 25px;
+    }
+}
+.btn-white span.MuiButton-label {
+    color: #fff;
+}
+@media screen and (min-width : 768px) {
+    .modal-inscription {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+}
+.modal-inscription .inscription-form-mui {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 18px 0 #0005;
+}
+.main-header header {
+    box-shadow: none;
+}
+.inner-section {
+    padding: 30px 0;
+}
+.homepage .top-section .inner-section {
+    background-position: bottom center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    min-height: 90vh;
+}
+@media screen and (min-width : 1500px) {
+    .homepage .top-section .inner-section {
+        background-size: cover !important;
+    }
+}
+.homepage .top-section {
+    background: #009688;
+    padding-top: 100px;
+    margin-top: -80px;
+}
+.right-form-col .button-se-connecter {
+    background: #009688;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 5px 25px;
+}
+.right-form-col {
+    background: rgb(255 255 255 / 50%);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 30%);
+}
+.right-form-col .form .MuiInput-root {
+    margin-right: 10px;
+}
+.right-form-col .button-se-connecter {
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 5px 25px;
+    margin: 25px 0;
+}
+.divider-ou {
+    font-size: 21px;
+    background: #009688;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px 7px;
+    color: #fff;
+    margin: 15px 0;
+}
+.signup .form-inscription .MuiFormControl-root {
+    width: 50%;
+    padding-right: 25px;
+}
+.right-form-col .btn-sinscrire {
+    background: #009688;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 30px;
+    margin: 30px 0;
+    border: 1px solid;
+}
+.right-form-col .btn-sinscrire:hover {
+    color: #009688;
+}
+.right-form-col .button-se-connecter:hover {
+    color: #009284;
+    border-color: #009587;
+}
+.right-form-col h3.title-cta {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: linear-gradient(
+45deg
+, #9c27b0 10px, #009688);
+    display: inline;
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right-form-col .form-login .MuiFormControl-root {
+    width: 50%;
+    padding-right: 20px;
+}
+@media screen and (max-width : 767px) {
+    .right-form-col .MuiFormControl-root {
+        width: 100% !important;
+    }
+}
+.left-side-home h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    background: linear-gradient(
+90deg
+, #ffffff 10px, #c7f7fa);
+    font-weight: 700;
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-side-home h1 span {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+@media screen and (min-width : 960px) {
+    .items-center-960 {
+        display: flex;
+        align-items: center;
+    }
+    .items-center-960 .left-side-home {
+        margin-top: -30%;
+    }
+}
+@media screen and (max-width : 767px) {
+    .left-side-home h1 {
+        font-size: 40px;
+    }
+    .left-side-home h1 span {
+        font-size: 18px;
+    }
+    .homepage .top-section {
+        padding-top: 41px;
+    }
+}
+.error-text {
+    color: #fff;
+    background: #f00;
+    padding: 10px;
+    margin-top: 10px;
+}
+.inner-section.dashbord-top {
+    background: #e8f6f4;
+}
+.dashbord-top .icons-search .MuiSvgIcon-root {
+    fill: #009688;
+}
+.dashbord-top .icons-search {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+.dashbord-top .input-container {
+    position: relative;
+}
+.dashbord-top .MuiInputBase-root {
+    width: 100%;
+    border-bottom: 1px solid #009688;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.dashbord-top .MuiInputBase-root input::placeholder {
+    color: #009688;
+}
+.listes-users {
+    padding: 0;
+    list-style: none;
+}
+@media screen and (min-width : 960px) {
+    .listes-users .user-list {
+        width: 25%;
+        display: inline-block;
+    }
+}
+@media screen and (max-width : 959px) and (min-width : 768px) {
+    .listes-users .user-list {
+        width: 33.33%;
+        display: inline-block;
+    }
+}
+@media screen and (max-width : 767px) {
+    .listes-users .user-list {
+        width: 100%;
+        display: inline-block;
+    }
+    .dashbord-top .top-utils {
+        display: block !important;
+    }
+    .main-header .cta-3btn .MuiButton-label span {
+        display: none;
+    }
+    .dashbord-top .top-utils .icons-container {
+        display: flex;
+        align-items: center;
+    }
+    .dashbord-top .top-utils .icons-container p {
+        margin: 0;
+    }
+}
+.listes-users .user-infos span {
+    display: block;
+    text-align: center;
+    word-break: break-all;
+}
+.listes-users .user-list .avatar {
+    max-width: 100px;
+    height: auto;
+}
+.listes-users .user-list .avatar-image {
+    text-align: center;
+}
+.listes-users .btn-cta {
+    text-align: center;
+}
+.listes-users .btn-cta button {
+    text-transform: none;
+}
+.listes-users .btn-cta .btn-edit {
+    border-bottom: 1px solid #009688;
+    color: #009688;
+    padding: 0px 4px;
+    border-radius: 0;
+    margin-right: 5px;
+}
+.listes-users .btn-cta .btn-edit:hover {
+    background: #009688;
+    color: #ffffff;
+}
+.listes-users .btn-cta .btn-delete:hover {
+    background: #f00;
+    color: #fff;
+}
+.listes-users .btn-cta .btn-delete {
+    color: #e60000;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    padding: 0px 4px;
+}
+.listes-users .btn-cta {
+    text-align: center;
+    margin-top: 20px;
+}
+.listes-users .user-infos span.nom {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.listes-users .user-infos span.prenom {
+    margin: 10px 0;
+}
+.listes-users .user-list .inner-list {
+    padding: 14px;
+    border-radius: 15px;
+    border: 1px solid #0096885e;
+    background: #f9f9f9;
+}
+.listes-users .user-list {
+    padding: 10px;
+}
+h2.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.admin-bar {
+    background: #000;
+    text-align: right;
+    padding: 0 15px;
+}
+.main-header .cta-3btn button {
+    text-transform: none;
+}
+.main-header .cta-3btn .MuiSvgIcon-root {
+    margin-right: 5px;
+}
+
+.form-inscription.add-user {
+    padding: 40px;
+    padding-top: 5px;
+}
+div#add-user-popup-title {
+    padding: 10px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #009688;
+    color: #fff;
+}
+.form-inscription.add-user .btn-ajouteer {
+    background: #009688;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-top: 25px;
+}
+.form-inscription.add-user .MuiFormControl-root {
+    width: 100%;
+}
+.form-inscription.edit-user {
+    padding: 25px;
+}
+.form-inscription.edit-user .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-inscription.edit-user .btn-edit-enregister {
+    background: #fff;
+    border-radius: 20px;
+    color: #009688;
+    border: 1px solid;
+    padding: 5px 30px;
+}
+.btn-white a {
+    color: #fff;
+}
+.btn-white a .MuiSvgIcon-root {
+    left: -25px;
+    position: absolute;
+    top: 5px;
+}
+.dashbord-top .top-utils {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 10px;
+    align-items: center;
+}
+.dashbord-top .top-utils .icons-container .icone {
+    margin-right: 10px;
+    border: 1px solid #000;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ul.grid-users {
+    list-style: none;
+    padding: 0;
+}
+.grid-users .user-list .fake-avatar .avatar-image {
+    width: 60px;
+}
+.grid-users .user-list .inner-list {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.grid-users .user-list .fake-avatar {
+    margin-right: 25px;
+    background: #4f4f4f;
+}
+.grid-users .user-list .user-infos span {
+    display: block;
+}
+.grid-users .user-list {
+    background: #f3f3f3;
+    margin-bottom: 10px;
+    padding: 0 10px 0 0px;
+}
+.grid-users .user-list .inner-list .btn-cta {
+    position: absolute;
+    right: 0;
+}
+.grid-users .btn-cta .btn-edit:hover {
+    background: #009688;
+    color: #fff;
+}
+
+.grid-users .btn-cta .btn-edit {
+    border: 1px solid;
+    color: #009688;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.grid-users .btn-cta .btn-delete:hover {
+    background: #f00;
+    color: #fff;
+}
+
+.grid-users .btn-cta .btn-delete {
+    color: #f00;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding: 5px 15px;
+}
+.grid-users .user-list .user-infos .nom {
+    text-transform: uppercase;
+    COLOR: #009688;
+}
+@media screen and (max-width : 767px) {
+    .grid-users .user-list .inner-list .btn-cta {
+        position: unset;
+        margin: 10px 5px;
+    }
+    .grid-users .user-list .inner-list {
+        display: block !important;
+        padding-bottom: 5px;
+    }
+    .grid-users .user-list .inner-list .fake-avatar {
+        width: 100% !important;
+    }
+    .grid-users .user-list .user-infos {
+        padding: 10px !important;
+    }
+    .grid-users .user-list {
+        padding: 0 !important;
+    }
+    .inner-section {
+        padding: 15px;
+    }
+}
+.dashbord-top .icons-container .icone.active {
+    color: #009688;
+    border-color: #009688;
+}
+.icons-container {
+    display: flex;
+    align-items: center;
+}

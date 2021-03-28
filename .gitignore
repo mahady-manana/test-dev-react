@@ -1,0 +1,4 @@
+/node_modules
+/build
+#/server-side/configs/*
+#!server-side/configs/config.md
