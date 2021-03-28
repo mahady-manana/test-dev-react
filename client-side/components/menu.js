@@ -43,7 +43,7 @@ export const Menu = () => {
       }}/>)
   }
   const withLogger = () => {
-    if (LoginLogger) {
+    if (LoginLogger || Auth.isAuthenticated()) {
       return (
         <div className='call-to-action'>
           <ButtonGroup variant="text" color="default" aria-label="button group" classes={{root : 'cta-3btn'}}>

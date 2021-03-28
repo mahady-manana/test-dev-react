@@ -44,7 +44,7 @@ const handleSubmit = event => {
             }).then(user_data => {
                 if (user_data.error) setUser({...user, error : user_data.error})
                 else {
-                    Auth.authenticate(data, () => {
+                    Auth.authenticate(user_data, () => {
                         setLoginLogger(!LoginLogger)
                         setRedirect(true)
                     })
